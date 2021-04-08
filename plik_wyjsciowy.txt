@@ -1,6 +1,0 @@
-Ilośc wystąpień "nie" : 1
-Indeksy pierwszych znaków : [308]
-
-Ilośc wystąpień "tak" : 0
-Indeksy pierwszych znaków : []
-
