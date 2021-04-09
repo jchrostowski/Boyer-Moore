@@ -81,10 +81,10 @@ print(wynik)
 
 # # Generowanie pliku wyjściowego
 #
-# with open('plik_wyjsciowy.txt', 'a', encoding='utf-8') as f:
-#     f.write('Ilośc wystąpień \"{}\" : {}\nIndeksy pierwszych znaków : {}\n\n'.format(wzorzec, wystapienia, indeksy))
-#
-# plik.close()
+with open('plik_wyjsciowy.txt', 'a', encoding='utf-8') as f:
+    f.write('Ilośc wystąpień \"{}\" : {}\nIndeksy pierwszych znaków : {}\n\n'.format(wzorzec, wystapienia, indeksy))
+
+plik.close()
 print('Zakończono przeszukiwanie')
 
 
