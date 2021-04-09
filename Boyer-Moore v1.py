@@ -59,7 +59,7 @@ for wzorzec in wzorce:
         while j >= 0:
             if wzorzec[j] == zakres[j]:
                 if j == 0:
-                    # indeksy.append(i)
+                    indeksy.append(i)
                     wystapienia += 1
                     przesun = len(wzorzec)
                     i += przesun
